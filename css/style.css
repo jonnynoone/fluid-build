@@ -122,7 +122,7 @@ h3 {
 
 .hero-image {
     display: block;
-    height: 120px;
+    height: 80px;
     margin: 0 auto;
     margin-bottom: 24px;
 }
@@ -306,6 +306,10 @@ h3 {
 
     .flagship-title {
         font-size: 26px;
+    }
+
+    .flagship-info {
+        margin-bottom: 0;
     }
     
     .highlight {
