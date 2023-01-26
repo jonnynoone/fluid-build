@@ -1,0 +1,118 @@
+/* COLORS 
+Aqua: #4ebcca
+ */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Segoe UI, sans-serif;
+}
+
+/* UTILITY CLASSES */
+.container {
+    margin: 0 auto;
+    padding: 0 30px;
+    max-width: 1200px;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.btn {
+    border: none;
+    cursor: pointer;
+    background-color: inherit;
+}
+
+.btn-primary {
+    display: inline-block;
+    padding: 10px 20px 12px;
+    color: #15171A;
+    background-color: #fff;
+    border-radius: 100px;
+}
+
+.btn-primary:hover {
+    color: #fff !important; 
+    background-color: #15171A;
+}
+
+/* MAIN STYLING */
+.main-header {
+    padding-top: 24px;
+    background-color: #4ebcca;
+}
+
+.main-nav, .aux-nav {
+    list-style-type: none;
+}
+
+.main-nav li, .aux-nav li {
+    display: inline-block;
+    margin-right: 26px;
+}
+
+.aux-nav li {
+    margin-right: 18px;
+}
+
+.aux-nav li:last-child {
+    margin-right: 0;
+}
+
+.main-header a {
+    display: inline-block;
+    letter-spacing: 0.1px;
+    padding-top: 10px;
+    padding-bottom: 12px;
+    color: #fefefe;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.main-header a:hover {
+    color: #000;
+}
+
+.search-button {
+    color: #fefefe;
+    margin-top: 3px;
+    margin-right: 28px;
+}
+
+.search-button:hover {
+    color: #000;
+}
+
+.aux-nav .subscribe-button {
+    color: #15171A;
+}
+
+/* HERO SECTION */
+.hero {
+    padding: 110px 0 160px;
+    background-color: #4ebcca;
+}
+
+.hero-image {
+    display: block;
+    height: 120px;
+    margin: 0 auto;
+    margin-bottom: 24px;
+}
+
+.hero-text {
+    display: block;
+    margin: 0 auto;
+    font-size: 24px;
+    max-width: 700px;
+    color: #fefefe;
+    text-align: center;
+}
