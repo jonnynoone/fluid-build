@@ -1,6 +1,7 @@
 /* COLORS 
-Aqua: #4ebcca
-Grey: #979797
+Aqua:   #4ebcca
+Grey:   #979797
+Purple: #9D4DFF
  */
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
@@ -139,6 +140,7 @@ h3 {
 
 .btn-white {
     color:#15171A !important;
+    border: 2px solid #fff;
     background-color: #fff !important;
     transition: background-color 0.3s, color 0.3s;
 }
